@@ -8,5 +8,5 @@ Aplikacja obługuje następujące parametry:
 * `-map map-file` - ścieżka do pliku zawierającego mapę z rozmieszczeniem statków (format opisany w sekcji Mapa).
 
 Komunikacja odbywa się z użyciem protokołu TCP, z kodowaniem UTF-8.
-Klient i serwer wysyłają sobie na przemian _wiadomość_, która składa się z 2 części: _komendy_ i _współrzędnych_, odzielonych znakiem `;`, i zakończonych znakiem końca linii `\n`.
+Klient i serwer wysyłają sobie na przemian wiadomości, które składa się z 2 części: komendy i współrzędnych, odzielonych znakiem `;`, i zakończonych znakiem końca linii `\n`.
 Format wiadomości: `komenda;współrzędne\n`
